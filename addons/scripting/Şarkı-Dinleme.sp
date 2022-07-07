@@ -20,7 +20,7 @@ public Plugin myinfo =
 
 public OnPluginStart()
 {
-	g_CvarSoundName = CreateConVar("sm_cay_sesi", "caferly-cakal-sarki.mp3"); /// - Dosya adını değişerek istediğiniz şarkıyı ekleyebilirsiniz.
+	g_CvarSoundName = CreateConVar("sm_sarki_sesi", "caferly-cakal-sarki.mp3"); /// - Dosya adını değişerek istediğiniz şarkıyı ekleyebilirsiniz.
 	RegConsoleCmd("sm_sarkidinle", Command_Sarki);	
 	RegConsoleCmd("sm_sarki", Command_Sarki);
 }
